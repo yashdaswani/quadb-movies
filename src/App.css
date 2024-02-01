@@ -13,6 +13,13 @@
   }
 }
 
+.tv{
+  padding: 2rem;
+  font-size: 2.3rem;
+  font-weight: 700;
+  color: white;
+}
+
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
@@ -34,5 +41,89 @@
   }
   to {
     transform: rotate(360deg);
+  }
+}
+
+/* src/App.css */
+
+.navbar{
+  background-color:#2f0d0d !important;
+}
+
+
+.showDetails_cont{
+  /* height: 89.3vh; */
+  width: 100vw;
+  position:relative;
+  padding-top:80px;
+}
+.bg{
+  height: 100%;
+  width: 100vw;
+}
+
+.showDetails_cont .bg:before{
+  content:"";
+  position:absolute;
+  top:0;
+  left:0;
+  width:100vw;
+  height:100%;
+  background:rgba(0,0,0,.75);
+  box-shadow:inset 0 0 80px #000;
+}
+
+
+.left{
+  /* width: 40%; */
+}
+
+.right img{
+  width: 20rem;
+}
+
+.showDetails_props{
+  padding-left: 3rem;
+  text-align: right;
+  position: relative;
+  right: 50px;
+  color: white;
+
+}
+
+.right{
+  /* width: 60%; */
+  
+}
+
+.showDetails_name{
+  margin-top: 2rem;
+  font-size: 3rem;
+  font-weight: 700;
+  color: white;
+}
+
+.showDetails_summary{
+  padding: 2rem;
+  color: white;
+}
+
+.buyTicket{
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  border:none;
+  outline:none;
+  height:50px;
+  background:#DB0000;
+  color:#fff;
+  border-radius:50px;
+  padding:10px 50px;
+  cursor:pointer;
+}
+
+@media  screen and (max-width:760px){
+  .showDetails_props{
+    position: relative;
+  
   }
 }

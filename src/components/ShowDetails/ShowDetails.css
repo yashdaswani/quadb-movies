@@ -1,0 +1,66 @@
+.showDetails_cont{
+    height: 100vh;
+    width: 100vw;
+    position:relative;
+    padding-top:80px;
+  }
+  
+  
+  .left img{
+    width: 20rem;
+  }
+  
+  .showDetails_props{
+    padding-left: 3rem;
+    text-align: right;
+    position: relative;
+    right: 50px;
+    color: white;
+  
+  }
+  
+  .right{
+    /* width: 60%; */
+    
+  }
+  
+  .showDetails_name{
+    margin-top: 2rem;
+    font-size: 3rem;
+    font-weight: 700;
+    color: white;
+  }
+  
+  .showDetails_summary{
+    padding: 2rem;
+    color: white;
+  }
+  
+  .buyTicket{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    border:none;
+    outline:none;
+    height:50px;
+    background:#DB0000;
+    color:#fff;
+    border-radius:50px;
+    padding:10px 50px;
+    cursor:pointer;
+  }
+  
+  @media  screen and (max-width:760px){
+
+    .showDetails_cont{
+        height: 100%;
+      }
+    .showDetails_props{
+      position: relative;
+    
+    }
+
+    .left img{
+        width: 15rem;
+      }
+      
+  }
